@@ -1,0 +1,22 @@
+{
+  "name": "@example/with-vitest",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "vitest --run",
+    "test.watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.5.1",
+    "@qwikdev/astro": "^0.5.13",
+    "astro": "^4.5",
+    "vitest": "^1.4"
+  }
+}
